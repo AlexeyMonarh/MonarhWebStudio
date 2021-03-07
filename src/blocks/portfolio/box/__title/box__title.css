@@ -1,0 +1,27 @@
+.box__title {
+	font-family: "Bernhard-scriptC";
+	padding-left: 120px;
+	font-size: 3em;
+	color: #cab381;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	transition: all 0.3s;
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 545px) {
+	.box__title {
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 408px) {
+	.box__title {
+		font-size: 1.4em;
+	}
+}
+
+@media screen and (max-width: 310px) {
+	.box__title {
+		font-size: 1.2em;
+	}
+}

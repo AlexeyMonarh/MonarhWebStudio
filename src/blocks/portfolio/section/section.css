@@ -1,0 +1,15 @@
+.section {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.section:nth-child(even) .box__container {
+	flex-direction: row-reverse;
+}
+
+.section:nth-child(even) .box__container .box__container-content {
+	left: 0;
+}

@@ -1,0 +1,16 @@
+.box__container-content {
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+	position: absolute;
+	right: 0;
+	margin-top: 200px;
+	margin-bottom: 40px;
+	padding: 40px;
+	background: black;
+	z-index: 1;
+	max-width: 400px;
+	color: #cab381;
+	box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+	border: 2px solid #cab381;
+}

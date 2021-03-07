@@ -1,0 +1,10 @@
+.main {
+	margin-top: 74px;
+	font-family: "Alice";
+	font-size: 2em;
+	font-weight: 700;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 50px;
+}
