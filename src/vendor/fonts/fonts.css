@@ -1,0 +1,11 @@
+@font-face {
+	src: local("Alice"), url("Alice-Regular.woff") format("woff");
+	font-family: "Alice";
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	src: local("Bernhard-scriptC"), url("Bernhard-scriptC.woff") format("woff");
+	font-family: "Bernhard-scriptC";
+}

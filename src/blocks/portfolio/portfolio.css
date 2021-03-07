@@ -1,0 +1,89 @@
+.main {
+	margin-top: 74px;
+	font-family: "Alice";
+	font-size: 2em;
+	font-weight: 700;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.section {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.section:nth-child(even) .box__container {
+	flex-direction: row-reverse;
+}
+
+.box {
+	width: 100%;
+	height: 100%;
+}
+
+.box__title {
+	font-family: "Bernhard-scriptC";
+	padding-left: 120px;
+	font-size: 3em;
+	color: #cab381;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	transition: all 0.3s;
+	padding-bottom: 20px;
+}
+
+.box__container-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100%;
+	object-fit: cover;
+}
+
+.box__container {
+	margin: auto;
+	position: relative;
+	max-width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.box__container-images {
+	position: relative;
+	width: 80%;
+	height: 500px;
+	overflow: hidden;
+	box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+}
+
+.box__container-content {
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+	position: absolute;
+	right: 0;
+	margin-top: 200px;
+	margin-bottom: 40px;
+	padding: 40px;
+	background: black;
+	z-index: 1;
+	max-width: 400px;
+	color: #cab381;
+	box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+	border: 2px solid #cab381;
+}
+
+.section:nth-child(even) .box__container .box__container-content {
+	left: 0;
+}
+
+@media screen and (max-width: 440px) {
+	.box__container-images {
+		width: 100%;
+	}
+}
